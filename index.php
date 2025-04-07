@@ -13,11 +13,9 @@ $session=new SessionCounter();
 
 </head>
 <body>
-<h1 class="display-6"><?php echo $session->salutation();
- ?></h1>
-     <div class="d-grid gap-2 col-6 mx-auto">
-        <a href="restart.php" class="btn btn-primary" role="button">Réinitialiser la session</a>
-
+<h1 class="display-6 text-center"><?php echo $session->salutation(); ?></h1>
+<div class="d-flex justify-content-center align-items-start vh-100 mt-5">
+    <a href="restart.php" class="btn btn-primary" role="button">Réinitialiser la session</a>
 </div>
 </body>
 </html>
